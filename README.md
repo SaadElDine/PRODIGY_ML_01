@@ -1,7 +1,7 @@
 # California House Price Prediction
 
 ## Overview
-    This project focuses on predicting median house prices in California using a linear regression model, Lasso(L1), Ridge(L2) and using Stochastic Gradient descent(SGD).
+This project focuses on predicting median house prices in California using a linear regression model, Lasso(L1), Ridge(L2) and using Stochastic Gradient descent(SGD).
 The dataset used contains various features such as median income, median age, total rooms, total )bedrooms, population, households, latitude, longitude, and distances to coast and major cities in California.
 
 ![image](https://github.com/SaadElDine/PRODIGY_ML_01/assets/113860522/2b49402e-52cc-4df7-af21-dd220b393880)
