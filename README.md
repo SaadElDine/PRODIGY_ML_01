@@ -33,12 +33,6 @@ The dataset California_Houses.csv contains the following columns:
 
 --
 
-## Linear Regression
-    Linear regression is a simple and widely used model for predicting a continuous target variable based on one or more input features. It assumes a linear relationship between the input features and the target variable.
-    In this project, we implemented linear regression using the LinearRegression class from the sklearn.linear_model module. We trained the model on the training data and evaluated its performance on the validation and test sets using metrics such as mean squared error (MSE), mean absolute error (MAE), and R-squared score.
-
---
-
 ## Data Exploration
 The data_exploration.ipynb notebook explores the dataset by visualizing the relationships between each feature and the target variable using scatter plots. This helps in understanding the potential impact of each feature on the target variable.
 
@@ -53,21 +47,27 @@ The data_exploration.ipynb notebook explores the dataset by visualizing the rela
 
 --
 
+## Linear Regression
+Linear regression is a simple and widely used model for predicting a continuous target variable based on one or more input features. It assumes a linear relationship between the input features and the target variable.
+In this project, we implemented linear regression using the LinearRegression class from the sklearn.linear_model module. We trained the model on the training data and evaluated its performance on the validation and test sets using metrics such as mean squared error (MSE), mean absolute error (MAE), and R-squared score.
+
+--
+
 ## Lasso Regression
-    Lasso (Least Absolute Shrinkage and Selection Operator) regression is a linear regression technique that uses L1 regularization to penalize the magnitude of the coefficients, leading to feature selection by shrinking some coefficients to zero.
-    We implemented Lasso regression using the Lasso class from the sklearn.linear_model module. We used grid search with cross-validation to find the best hyperparameters and evaluated the model's performance on the validation set.
+Lasso (Least Absolute Shrinkage and Selection Operator) regression is a linear regression technique that uses L1 regularization to penalize the magnitude of the coefficients, leading to feature selection by shrinking some coefficients to zero.
+We implemented Lasso regression using the Lasso class from the sklearn.linear_model module. We used grid search with cross-validation to find the best hyperparameters and evaluated the model's performance on the validation set.
 
 --
 
 ## Ridge Regression
-    Ridge regression is another linear regression technique that uses L2 regularization to penalize the squared magnitude of the coefficients, which can help reduce overfitting by shrinking the coefficients towards zero.
-    We implemented Ridge regression using the Ridge class from the sklearn.linear_model module. Similar to Lasso regression, we used grid search with cross-validation to find the best hyperparameters and evaluated the model's performance on the validation set.
+Ridge regression is another linear regression technique that uses L2 regularization to penalize the squared magnitude of the coefficients, which can help reduce overfitting by shrinking the coefficients towards zero.
+We implemented Ridge regression using the Ridge class from the sklearn.linear_model module. Similar to Lasso regression, we used grid search with cross-validation to find the best hyperparameters and evaluated the model's performance on the validation set.
 
 --
 
 ## Stochastic Gradient Descent (SGD) Regression
-    Stochastic Gradient Descent (SGD) is an optimization algorithm that iteratively updates the model parameters to minimize a loss function. In the context of regression, SGD can be used to train linear regression models.
-    We implemented SGD regression using the SGDRegressor class from the sklearn.linear_model module. We trained the model using SGD with a maximum number of iterations and a tolerance value for convergence. We then evaluated the model's performance on the validation and test sets.
+Stochastic Gradient Descent (SGD) is an optimization algorithm that iteratively updates the model parameters to minimize a loss function. In the context of regression, SGD can be used to train linear regression models.
+We implemented SGD regression using the SGDRegressor class from the sklearn.linear_model module. We trained the model using SGD with a maximum number of iterations and a tolerance value for convergence. We then evaluated the model's performance on the validation and test sets.
 
 --
 
